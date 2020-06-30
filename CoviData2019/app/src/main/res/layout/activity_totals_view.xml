@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/total_screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/total_screen_title"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/total_screen_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/total_screen_world"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_screen_title" />
+
+    <TextView
+        android:id="@+id/total_screen_confirmed_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/total_screen_confirmed_txt"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/total_screen_world"
+        app:layout_constraintTop_toBottomOf="@+id/total_screen_world" />
+
+    <TextView
+        android:id="@+id/total_screen_deaths_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/total_screen_deaths_txt"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/total_screen_world"
+        app:layout_constraintTop_toBottomOf="@+id/total_screen_confirmed_txt" />
+
+    <TextView
+        android:id="@+id/total_screen_recovered_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/total_screen_recovered_txt"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/total_screen_world"
+        app:layout_constraintTop_toBottomOf="@+id/total_screen_deaths_txt" />
+
+    <TextView
+        android:id="@+id/total_screen_by_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/total_screen_by_country"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_screen_recovered_txt" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/total_screen_country_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_screen_by_country"
+        app:layout_constraintVertical_bias="0.466" />
+
+    <TextView
+        android:id="@+id/total_screen_confirmed_nb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/total_screen_confirmed_nb"
+        app:layout_constraintStart_toEndOf="@+id/total_screen_confirmed_txt"
+        app:layout_constraintTop_toTopOf="@+id/total_screen_confirmed_txt" />
+
+    <TextView
+        android:id="@+id/total_screen_deaths_nb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/total_screen_deaths_nb"
+        app:layout_constraintStart_toEndOf="@+id/total_screen_deaths_txt"
+        app:layout_constraintTop_toTopOf="@+id/total_screen_deaths_txt" />
+
+    <TextView
+        android:id="@+id/total_screen_recovered_nb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/total_screen_recovered_nb"
+        app:layout_constraintStart_toEndOf="@+id/total_screen_recovered_txt"
+        app:layout_constraintTop_toTopOf="@+id/total_screen_recovered_txt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

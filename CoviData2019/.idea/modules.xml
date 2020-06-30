@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CoviData 2019-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CoviData 2019-app.iml" group="CoviData 2019/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CoviData-CoviData2019-CoviData_2019.iml" filepath="$PROJECT_DIR$/.idea/modules/CoviData-CoviData2019-CoviData_2019.iml" group="CoviData_2019" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CoviData-CoviData2019-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CoviData-CoviData2019-app.iml" group="CoviData 2019/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CoviData2019-CoviData_2019.iml" filepath="$PROJECT_DIR$/.idea/modules/CoviData2019-CoviData_2019.iml" group="CoviData_2019" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CoviData2019-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CoviData2019-app.iml" group="CoviData 2019/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CoviData_2019.iml" filepath="$PROJECT_DIR$/.idea/modules/CoviData_2019.iml" group="CoviData_2019" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GitHub-ing1_p22_covidata2019-CoviData2019-CoviData_2019.iml" filepath="$PROJECT_DIR$/.idea/modules/GitHub-ing1_p22_covidata2019-CoviData2019-CoviData_2019.iml" group="CoviData_2019" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="CoviData 2019/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ing1_p22_covidata2019-CoviData2019-CoviData_2019.iml" filepath="$PROJECT_DIR$/.idea/modules/ing1_p22_covidata2019-CoviData2019-CoviData_2019.iml" group="CoviData_2019" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ing1_p22_covidata2019-CoviData2019-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ing1_p22_covidata2019-CoviData2019-app.iml" group="CoviData 2019/app" />
+    </modules>
+  </component>
+</project>

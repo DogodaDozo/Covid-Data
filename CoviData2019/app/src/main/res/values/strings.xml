@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">CoviData 2019</string>
+    <string name="app_by">App by:</string>
+    <string name="description">Final project for introduction to android platform\nthat shows the covid-19 data from around the world.\nYou can choose if you want the global information\nor sort by country</string>
+    <string name="creators">Diogo Simao Marques</string>
+    <string name="data_button">Data</string>
+    <string name="graph_button">Graph</string>
+    <string name="mystery_button">About Covid</string>
+    <string name="made_at">Made at EPITA</string>
+    <string name="logo_desc">epita_logo</string>
+    <string name="mystery_title">How to protect yourself \nand others from COVID-19</string>
+    <string name="wash_hands"> Wash your hands \nvery regularly</string>
+    <string name="sneeze">Cough or sneeze \nin your elbow</string>
+    <string name="tissue">Use a disposable \ntissue</string>
+    <string name="hand_shake">Greet without shaking \nhands,avoid hugs \nand kisses</string>
+    <string name="safe">Stay safe!</string>
+    <string name="confirmed_button">Confirmed</string>
+    <string name="deaths">Deaths</string>
+    <string name="recovered">Recovered</string>
+    <string name="date">08/06/2020</string>
+
+    <string name="total_screen_title">Totals</string>
+    <string name="total_screen_world">World</string>
+    <string name="total_screen_confirmed_txt">Confirmed :</string>
+    <string name="total_screen_confirmed_nb">0</string>
+    <string name="total_screen_deaths_txt">Deaths :</string>
+    <string name="total_screen_deaths_nb">0</string>
+    <string name="total_screen_recovered_txt">Recovered :</string>
+    <string name="total_screen_recovered_nb">0</string>
+    <string name="total_screen_by_country">By Country :</string>
+    <string name="total_screen_country_name">Country</string>
+
+    <string name="calendar_screen_country">FRANCE</string>
+    <string name="calendar_screen_confirmed_txt">Confirmed :</string>
+    <string name="calendar_screen_confirmed_nb">0</string>
+    <string name="calendar_screen_deaths_txt">Deaths :</string>
+    <string name="calendar_screen_deaths_nb">0</string>
+    <string name="calendar_screen_recovered_txt">Recovered :</string>
+    <string name="calendar_screen_recovered_nb">0</string>
+
+    <string name="graph_screen_country_name">Country</string>
+</resources>
